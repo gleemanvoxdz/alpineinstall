@@ -272,7 +272,7 @@ mkfs.ext4 -F -L 'Alpine Linux' "$p2"
 mount -t ext4 $p2 /mnt ; mkdir -p /mnt/boot ; mount -t vfat $p1 /mnt/boot
 
 # Base system install
-setup-disk -m sys -B none -k $kernel /mnt
+BOOTLOADER=none setup-disk -m sys -k $kernel /mnt
 
 # UKI setup
 chroot /mnt apk add $cpu-ucode
