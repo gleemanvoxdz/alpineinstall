@@ -13,12 +13,12 @@ My scripts to setup Alpine Linux with some nice features.
 - As always, go through setup-alpine and select "none" in the disks section
 - Run the command below:
 ```sh
-apk add curl && curl https://raw.githubusercontent.com/gleemanvoxdz/alpineinstall/refs/heads/main/alpineinstall.sh >> alpineinstall.sh && sh alpineinstall.sh
+apk add curl && curl -L -O https://raw.githubusercontent.com/gleemanvoxdz/alpineinstall/refs/heads/main/alpineinstall.sh && sh alpineinstall.sh
 ```
 - Shorter URL:
 ```sh
-apk add curl && curl https://adisz.net/alpineinstall/ >> alpineinstall.sh && sh alpineinstall.sh
+apk add curl && curl -L -O https://adisz.net/linux/alpineinstall.sh && sh alpineinstall.sh
 ```
 
-# alpinepostinstall.sh
+# alpinedsektop.sh
 **This script is used to quickly configure the base system to suit my needs. You can check it out yourself if you'd like.**
