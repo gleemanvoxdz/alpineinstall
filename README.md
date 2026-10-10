@@ -3,7 +3,7 @@ My scripts to setup Alpine Linux with some nice features.
 
 **Features:**
 - Enables rolling release repos,
-- Allows you to choose the kernel and microcode,
+- Allows you to choose the kernel, microcode, file system,
 - Sets the memory allocator to mimalloc3,
 - Enables secure boot by default (if secure boot is in setup-mode in UEFI),
 - Creates a signed UKI image (no bootloader needed).
